@@ -1,0 +1,12 @@
+name = "gamewebdemo1"
+compatibility_date = "2024-05-01"
+
+# 根据项目类型选择一种配置 ▼▼▼
+
+# 如果是静态网站（如React/Vue项目）
+[pages]
+bucket = "./dist"          # 必须指向构建后的目录
+build_command = "npm run build"
+
+# 如果是Worker脚本（需要后端逻辑）
+# main = "./src/index.js"  # 取消注释此项
