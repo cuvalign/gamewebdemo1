@@ -1,12 +1,3 @@
 name = "gamewebdemo1"
 compatibility_date = "2024-05-01"
-
-# 只保留一种配置方式 ▼▼▼
-
-# 方式1: Worker脚本部署（使用src/index.js）
 main = "./src/index.js"
-
-# 方式2: 静态网站部署（使用dist目录）
-# [pages]
-# bucket = "./dist"
-# build_command = "npm run build"
